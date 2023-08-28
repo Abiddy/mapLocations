@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Map</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+  <style>
+    #map {
+      width: 100%;
+      height: 500px;
+    }
+  </style>
+</head>
+<body>
+  <h1 style="font-family: Arial, sans-serif;">Interactive Map</h1>
+  <h3 style="font-family: Arial, sans-serif; font-weight: lighter;">Select a location below</h3>
+  <div id="map" style="width: 100%; height: 500px;"></div>
+  <div id="marker-form" style="display: none;">
+    <h2 style="font-family: Arial, sans-serif;">Add Marker</h2>
+    <form id="form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="description">Description:</label>
+      <textarea id="description" name="description" required></textarea>
+      <button type="submit" style="background-color: #007bff; color: white; font-family: Arial, sans-serif;">Submit</button>
+    </form>
+  </div>
+  <ul id="location-list" style="list-style: none;"></ul>
+  
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>
