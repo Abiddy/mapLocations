@@ -12,7 +12,8 @@ Start the app:
 
 Demo:
 
-[screencast-from-08-27-2023-033710-pm_sngRlDU6.webm](https://github.com/Abiddy/map-locations/assets/77697776/8f870fab-3ab2-4c53-9d74-f05e0b7d8401)
+[screencast-from-08-27-2023-033710-pm_sngRlDU6.webm](https://github.com/Abiddy/mapLocations/assets/77697776/95684b6d-7d6b-4d07-88a3-952dedf149f8)
+
 
 
 
