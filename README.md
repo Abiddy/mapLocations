@@ -12,6 +12,7 @@ From the root of the directory run:
 `npm i`
 
 Start the app:
+
 `npm start`
 
 Demo:
