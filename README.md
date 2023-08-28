@@ -4,7 +4,7 @@ Express | NodeJs | HTML/CSS
 
 ## Setup
 
-Install dependencies:
+From the root of the directory run:
 
 `npm install express`
 
